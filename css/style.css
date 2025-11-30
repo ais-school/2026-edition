@@ -1,0 +1,307 @@
+/* General. */
+.txtcenter {
+    text-align: center;
+}
+
+.b-divider-line {
+    width: 100%;
+    height: 0px;
+    margin: 20px 0 20px 0;
+
+    border-top: 2px solid #111111;
+}
+
+.w-divider-line {
+    width: 100%;
+    height: 0px;
+    margin: 20px 0 20px 0;
+
+    border-top: 2px solid #ffffff;
+}
+
+.bg-black {
+    background-color: #111111;
+}
+
+.bg-grey {
+    background-color: #f1f1f1;
+}
+
+.bg-blue {
+    background-color: #292c33;
+}
+
+.bg-footer {
+    background-color: #1c1e23;
+}
+
+.c-yellow {
+    color: #D1A730;
+}
+
+.c-white {
+    color: #f9f9fa;
+}
+
+.c-gray{
+    color: #d8dadb;
+}
+
+.card-border {
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.colorme-black {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+
+    color: black;
+    background-color: white;
+}
+
+.colorme-black:hover {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+
+    color: #f8cf5f !important;
+    background-color: #292c33;
+}
+
+.cars-colored {
+    margin-left: 45px;
+}
+
+/* Utility Classes. */
+.pt-5 { padding-top: 5px; }
+.pt-20 { padding-top: 20px; }
+.py-25 { padding-top: 25px; padding-bottom: 25px; }
+.pb-50 { padding-bottom: 50px; }
+.pt-50 { padding-top: 50px; }
+.py-50 { padding-top: 50px; padding-bottom: 50px; }
+
+.fw-100 { font-weight: 100; }
+.text-justify { text-align: justify; }
+
+h3.text-underlined { text-decoration: underline; }
+
+/* Component Specific. */
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 350px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 350px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    z-index: 1;
+}
+
+.carousel-item.active {
+    position: relative;
+    opacity: 1;
+    z-index: 2;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 2;
+  width: 5%;
+}
+
+.aim-scope-column {
+    text-align: justify;
+}
+
+.tutorial-speaker-text {
+    padding-top: 5px;
+}
+
+.main-content-abstract-padding {
+    margin-top: 125px;
+    margin-bottom: 100px;
+}
+
+.tutorial-img-padding {
+    padding-bottom: 5px;
+}
+
+.pb-25 { padding-bottom: 25px; }
+.mt-25 { margin-top: 25px; }
+
+/* Travel page specific card styles. */
+.map-card-link {
+    display: block;
+    text-decoration: none !important; /* To override default link underlines. */
+}
+.info-card-wrapper {
+    max-width: 15rem;
+    margin: 0 auto;
+}
+.card-text-small {
+    font-size: 13px;
+}
+
+.speaker-img {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.speaker-img-lecture {
+    width: 130px;
+    height: 130px;
+}
+.speaker-img-tutorial {
+    width: 95px;
+    height: 95px;
+}
+
+/* Navbar. */
+.navbar-light {
+    background-color: #f1f1f1;
+}
+
+.same-line {
+    display: inline;
+}
+
+.nav-link.active,
+.dropdown-toggle.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Slider. */
+.bg-slider {
+    background-color: #292c33;
+    margin-top: 55px; /* Added to compensate for removed body padding-top. */
+}
+
+/* Logo. */
+.bg-logo {
+    background-color: #f9f9fa;
+    box-shadow: 0px 0px 1px #dbdbdb;
+}
+
+/* Open Sans font. */
+.os {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 26.4px;
+}
+
+.os-title {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 26.4px;
+}
+
+.os-text {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 26.4px;
+}
+
+.os-2text {
+    font-family: "Open Sans";
+    font-weight: 200;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 26.4px;
+}
+
+/* Particles. */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.9;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#particles-js canvas {
+    max-height: 550px;
+    z-index: -1;
+}
+
+/* Styles for desktop. */
+@media (min-width: 768px) {
+  .img-loc {
+    text-align: right;
+  }
+
+  .txt-loc {
+    text-align: left;
+  }
+
+  .img-logo-size {
+    max-height: 65px;
+  }
+}
+
+/* Styles for mobile. */
+@media (max-width: 767px) {
+  .img-loc {
+    text-align: center;
+  }
+
+  .txt-loc {
+    text-align: center;
+  }
+
+  .img-logo-size {
+    width: 95%;
+    height: auto;
+  }
+
+  .speaker-img-lecture, .speaker-img-tutorial {
+    max-width: 100%; /* Ensure images shrink to fit container on mobile. */
+  }
+
+  .main-content-abstract-padding {
+    margin-top: 100px; /* Reduced margin for abstract pages on mobile. */
+    margin-bottom: 100px; /* Reduced margin for abstract pages on mobile. */
+  }
+}
